@@ -1,0 +1,47 @@
+img {
+  width: 20%;
+  height: auto;
+  margin: 10px;
+}
+
+#typeSelect,
+#backgroundSelect {
+  width: 150px;
+}
+
+img {
+  width: 144px;
+  height: 144px;
+  background: url('../assets/loading-crop.gif') no-repeat;
+  background-position: center;
+  background-size: 50px auto;
+  border: 2px solid lightgrey;
+  /* border-radius: 5px; */
+}
+
+img:hover {
+  border: 2px solid black;
+}
+
+.images-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  display: relative;
+  width: 144px;
+  height: 144px;
+  margin: 10px;
+}
+
+.wrapper .glyphicon {
+  /* position: absolute; */
+  top: -162px;
+  right: -131px;
+}
+
+.glyphicon-ok {
+  color: rgb(240, 4, 122);
+  font-size: 30px;
+}
